@@ -1,0 +1,317 @@
+body{
+    /* background-color: rgb(18, 18, 18); */
+    font-family: 'Roboto Mono', monospace;
+}
+#main_body{
+    background-image: linear-gradient(rgb(33,33,33), rgb(18,18,18));
+    width: 1528px;
+    height: 701px;
+}
+
+.headings{
+    font-weight: bold;
+}
+
+#side_panel{
+    margin-top: -9px;
+    margin-left: -9px;
+    position: absolute;
+    background-color: black;
+    border: 1px solid black;
+    width: 238px;
+    height: 652px;
+}
+
+#logo{
+    margin-left: 24px;
+    margin-top: 25px;
+    height: 39px;
+}
+
+#top_panel{
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(17, 17, 17));
+    margin-top: -9px;
+    margin-left: 231px;
+    position: absolute;
+    border: 1px solid black;
+    width: 1295px;
+    height: 64px;
+}
+#top_text{
+    color: white;
+}
+
+#bottom_panel{
+    background-image: linear-gradient(to right, #a936a1, rgb(152, 110, 235), #2d99e2);
+    margin-left: -9px;
+    position: absolute;
+    border: 1px solid black;
+    height: 62px;
+    margin-top: 645px;
+    width: 1535px;
+}
+#bottom_text{
+    color: white;
+}
+
+#home_icon{
+    position: absolute;
+    height: 23px;
+    margin-top: 95px;
+    margin-left: -132px;
+}
+#search_icon{
+    position: absolute;
+    height: 20px;
+    margin-top: 133px;
+    margin-left: -132px;
+}
+#library_icon{
+    position: absolute;
+    height: 30px;
+    margin-top: 169px;
+    margin-left: -138px;
+}
+
+.side_links li{
+    padding-bottom: 22px;
+}
+
+.side_links li a{
+    position: absolute;
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 19px;
+    margin-top: 11px;
+    
+}
+.side_links2 li{
+    padding-bottom: 22px;
+}
+
+.side_links2 li a{
+    position: absolute;
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 19px;
+    margin-top: 13px;
+}
+
+#plus_icon{
+    position: absolute;
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#heart_icon{
+    position: absolute;
+    height: 29px;
+    margin-left: 17px;
+    margin-top: 46px;
+}
+.side_links3 li{
+    padding-bottom: 10px;
+}
+.side_links3 li a{
+    position: absolute;
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: -17px;
+    margin-top: 260px;
+}
+
+.side_links3 li a:hover{
+    text-decoration: underline;
+}
+
+#left_arrow{
+    position: absolute;
+    height: 33px;
+    border-radius: 50%;
+    margin-top: 13px;
+    margin-left: 33px;
+}
+#right_arrow{
+    position: absolute;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-left: 80px;
+}
+
+.navbar{
+    margin-left: 695px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+    color: rgb(182, 182, 182);
+}
+
+#login{
+    position: absolute;
+    background-color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    margin-left: 1164px;
+    margin-top: -49px;
+}
+#login:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+}
+#login a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.side_links li a:hover, .side_links2 li a:hover, .side_links3 li a:hover, .navbar li a:hover{
+    color: whitesmoke;
+}
+
+#signup{
+    position: absolute;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 100px;
+    margin-left: 1350px;
+    margin-top: 8px;
+    border: none;
+}
+#signup:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+}
+#signup a{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+#bottom_text1{
+    color: rgb(255, 239, 210);
+    font-size: 15px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#bottom_text2{
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+#page_element1{
+    margin-top: 150px;
+    margin-left: 262px;
+}
+#page_element2{
+    margin-top: 150px;
+    margin-left: 472px;
+}
+#page_element3{
+    margin-top: 150px;
+    margin-left: 682px;
+}
+#page_element4{
+    margin-top: 150px;
+    margin-left: 892px;
+}
+#page_element5{
+    margin-top: 150px;
+    margin-left: 1102px;
+}
+#page_element6{
+    margin-top: 150px;
+    margin-left: 1312px;
+}
+
+.elements{
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    position: absolute;
+    display: inline-block;
+    max-width: 196px;
+    background-color: rgb(26, 26, 26);
+}
+.elements:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(44, 44, 44),rgb(56, 55, 55));
+}
+
+.images{
+    border-radius: 20px;
+    height: 170px;
+    width: 170px;
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.eleheading{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.eledesc{
+    color: rgb(224, 220, 220);
+    font-size: 14px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.mainhead{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 256px;
+    text-decoration: none;
+}
+
+.seall{
+    position: absolute;
+    color: rgb(152, 152, 152);
+    font-size: 14px;
+    margin-left: 1460px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.seall:hover, .mainhead:hover{
+    text-decoration: underline;
+}
+
+#indiasbest{
+    margin-top: 80px;
+}
+#seeall1{
+    margin-top: 120px;
+}
+#charts{
+    margin-top: 480px;
+}
+#seeall2{
+    margin-top: 520px;
+}
